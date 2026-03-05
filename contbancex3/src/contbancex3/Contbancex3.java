@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prodex2;
+package contbancex3;
 
 /**
  *
  * @author crisf
  */
-public class Prodex2 {
+public class Contbancex3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    produto p1 = new produto();
-     p1.setnome("garrafa térmica");
-     p1.setpreço(65.89);
-        System.out.println("nome do produto:" +p1.getNome());
-        System.out.println("o preço é:"+p1.getpreço());
+        // TODO code application logic here
     }
     
 }
