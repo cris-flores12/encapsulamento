@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package funcioex1;
+package prodex2;
 
 /**
  *
  * @author crisf
  */
-public class Funcioex1 {
+public class Prodex2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        funcionario func1=new funcionario();
-       func1.setnome("Cristian Moraes Flores ");
-       func1.setsalario(2700);
-        System.out.println("nome: " +func1.getnome() );
-        System.out.println("salário:R$"+func1.getsalario());
+        // TODO code application logic here
     }
     
 }
