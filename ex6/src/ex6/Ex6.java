@@ -3,27 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package contbancex3;
+package ex6;
 
 /**
  *
  * @author crisf
  */
-public class Contbancex3 {
+public class Ex6 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-  contabancaria cont = new contabancaria();
-      cont.titular="Cristian";
-      cont.setSaldo(120);
-      cont.getSaldo();
-      cont.depositar(145);
-      cont.getSaldo();
-      cont.sacar(180);
-      cont.getSaldo();
+        // TODO code application logic here
     }
     
 }
-
