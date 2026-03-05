@@ -15,7 +15,13 @@ public class Ex5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    Funcionario f = new Funcionario();
+
+        f.setNome("Da vinci");
+        f.setSalario(12000.00);
+
+        System.out.println("Nome: " + f.getNome());
+        System.out.println("Salário: " + f.getSalario());
     }
-    
-}
+
+    }

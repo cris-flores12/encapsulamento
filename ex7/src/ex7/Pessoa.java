@@ -10,5 +10,18 @@ package ex7;
  * @author crisf
  */
 public class Pessoa {
-    
+      protected int idade;
+
+}
+
+class Aluno extends Pessoa {
+
+    public void definirIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void mostrarIdade() {
+        System.out.println("Idade do aluno: " + idade);
+    }
+
 }

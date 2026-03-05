@@ -15,7 +15,14 @@ public class Ex6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+          Usuário u = new Usuário("admin", "1234");
+
+        if (u.autenticar("admin", "1234")) {
+            System.out.println("Login realizado com sucesso");
+        } else {
+            System.out.println("Login ou senha incorretos");
+        }
+
     }
     
 }

@@ -3,22 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ex7;
+package ex8;
 
 /**
  *
  * @author crisf
  */
-public class Ex7 {
+public class Ex8 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
- Aluno a = new Aluno();
-
-        a.definirIdade(20);
-        a.mostrarIdade();
+        // TODO code application logic here
     }
     
 }
